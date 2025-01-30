@@ -14,13 +14,13 @@ Lung CT image registration is a crucial task in medical imaging, particularly fo
 ## Repository Structure
 
 Lung-CT-Registration-Challenge
-│── README.md                  # Documentation for the project
-│── .gitignore                  # Ignore unnecessary files in version control
-│── orchestator_challenge.ipynb # Jupyter Notebook orchestrating the entire process
-│── Create_mask.py              # Script for generating segmentation masks
-│── a_registration.py           # Non-rigid registration of lung CT images
-│── b_points.py                 # Landmark transformation and processing
-│── c_TRE.py                    # Computation of Target Registration Error (TRE)
+   ── README.md                  # Documentation for the project
+   ── .gitignore                  # Ignore unnecessary files in version control
+   ── orchestator_challenge.ipynb # Jupyter Notebook orchestrating the entire process
+   ── Create_mask.py              # Script for generating segmentation masks
+   ── a_registration.py           # Non-rigid registration of lung CT images
+   ── b_points.py                 # Landmark transformation and processing
+   ── c_TRE.py                    # Computation of Target Registration Error (TRE)
 
 ## Getting Started
 

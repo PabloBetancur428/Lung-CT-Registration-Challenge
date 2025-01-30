@@ -29,6 +29,8 @@ Lung-CT-Registration-Challengeç
    
    |─ c_TRE.py                    -> Module for computation of Target Registration Error (TRE)
 
+   |- Parameters_BSpline_final.txt-> File with the final parameters used for registration
+
 ## Getting Started
 
 ### Prerequisites

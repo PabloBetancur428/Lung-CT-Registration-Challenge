@@ -6,7 +6,7 @@ This repository provides a pipeline for non-rigid lung CT image registration, in
 | :--: | 
 | *Example of images overlaid with their corresponding landmarks. The left image shows the inhale phase, while the right image shows the exhale phase.* |
 
-**The proposed pipeline ranked third and achieved a mean TRE of 1.17 mm on the test dataset during the challenge event.**
+**The proposed pipeline ranked third and achieved a mean TRE of 1.17 mm on the test dataset during the challenge day.**
 <center> <h3> <a href=MIRA_Final_Report.pdf>Link to the Report </a></h3></center>
 
 ## Overview

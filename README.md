@@ -1,6 +1,11 @@
 # Lung-CT-Registration-Challenge
 
-This repository provides a pipeline for non-rigid lung CT image registration, including anatomical landmark transformation and lung segmentation. The main goal is to accurately align inhale and exhale CT images and evaluate registration accuracy using the Target Registration Error (TRE) metric.
+This repository provides a pipeline for non-rigid lung CT image registration, including anatomical landmark transformation and lung segmentation. The main goal is to accurately align inhale and exhale CT images and evaluate registration accuracy using the Target Registration Error (TRE) metric. This was the final assignment for the Medical Image Registration and Analysis course at the University of Girona, as part of the [MAIA programme](https://maiamaster.udg.edu/).
+
+|![img](Figures/ex_in.png)|
+| :--: | 
+| *Example of images overlaid with their corresponding landmarks. The left image shows the inhale phase, while the right image shows the exhale phase.* |
+
 
 ## Overview
 
@@ -42,7 +47,7 @@ pip install numpy scipy SimpleITK nibabel matplotlib
 ### Usage
 
 1. Run the Orchestrator Notebook  
-   The Jupyter Notebook `orchestator_challenge.ipynb` is the main entry point and runs the full registration workflow. Open it and execute each cell step by step.
+   The Jupyter Notebook `orchestator_challenge.ipynb` is the main entry point and runs the full registration workflow. Open it and execute each cell step by step. Ensure that the file names in each of the modules correspond to the files you have on your local machine. 
 
 2. Run Individual Scripts  
    If you prefer to execute the scripts separately, follow this order:

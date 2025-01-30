@@ -23,11 +23,11 @@ Lung-CT-Registration-Challengeç
    
    |─ Create_mask.py              -> Script for generating segmentation masks
    
-   |─ a_registration.py           -> Non-rigid registration of lung CT images
+   |─ a_registration.py           -> Module for non-rigid registration of lung CT images
    
-   |─ b_points.py                 -> Landmark transformation and processing
+   |─ b_points.py                 -> Module for landmark transformation and processing
    
-   |─ c_TRE.py                    -> Computation of Target Registration Error (TRE)
+   |─ c_TRE.py                    -> Module for computation of Target Registration Error (TRE)
 
 ## Getting Started
 
